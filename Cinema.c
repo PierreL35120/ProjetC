@@ -18,7 +18,7 @@ for (int i=0; i<3; i++){
     }
     else if(voir == 'n'){
         printf("Proposition suivante :\n");
-    i++; //Si jamais on refuse, il ajoute +1 à i, ce qui ferra passer à l'option de film suivant.
+    i++; //Si jamais on refuse, il ajoute +1 à i, ce qui ferra passer à l'option de film suivant. Après le 3e film, c'est fini.
 }
 }
 }
