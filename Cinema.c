@@ -3,7 +3,7 @@
 
 int main (void){
     char voir;
-    int age = get_int("Quel est votre âge ?\n");
+    int age = get_int("Quel est votre âge ?\n"); //Cette étape sert à définir votre âge.
     
     string filmCategorieEnfant[3]={"Winnie l'ourson", "Fantasia", "Le roi lion"};
     string filmCategorieAdos[3]={"Madagascar", "One Piece : Strong World", "Gladiator"};
@@ -18,7 +18,7 @@ for (int i=0; i<3; i++){
     }
     else if(voir == 'n'){
         printf("Proposition suivante :\n");
-    i++;
+    i++; //Si jamais on refuse, il ajoute +1 à i, ce qui ferra passer à l'option de film suivant.
 }
 }
 }
