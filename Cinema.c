@@ -13,7 +13,7 @@ for (int i=0; i<3; i++){
     if(age > 18){
         voir = get_char("Voulez vous voir %s ? y/n ", filmCategorieAdulte[i]);
     }if(voir =='y'){
-        printf("%s va commencer.", filmCategorieAdulte[i]);
+        printf("%s va commencer.", filmCategorieAdulte[i]); //Le [i] change en fonction de la boucle, il adaptera donc le nom du film en fonction de la valeur de [i].
         break; //Si on accepte, le break va stopper le programme.
     }
     else if(voir == 'n'){
