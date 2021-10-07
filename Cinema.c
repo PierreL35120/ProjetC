@@ -14,7 +14,7 @@ for (int i=0; i<3; i++){
         voir = get_char("Voulez vous voir %s ? y/n ", filmCategorieAdulte[i]);
     }if(voir =='y'){
         printf("%s va commencer.", filmCategorieAdulte[i]);
-        break;
+        break; //Si on accepte, le break va stopper le programme.
     }
     else if(voir == 'n'){
         printf("Proposition suivante :\n");
