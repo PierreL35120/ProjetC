@@ -24,8 +24,8 @@ int main(void)
     
     ProdPromo = ProdBase * (100 - Pourcent) / 100; //Ici, nous trouvons le prix en solde de l'article.
     RendBase = Argent - ProdBase; //Là, c'est l'argent qui nous aurais été rendu du base.
-    RendSolde = Argent - ProdPromo; //Maintenant, c'est l'argent rendu avec le pris soldé.
-    Economie = ProdBase - ProdPromo;  //Ça indique la somme économisé grâce à la solde.
+    RendSolde = Argent - ProdPromo; //Maintenant, c'est l'argent rendu avec le prix soldé.
+    Economie = ProdBase - ProdPromo;  //Ça indique la somme économiser grâce à la solde.
     ManqueSolde = ProdPromo - Argent; //Si jamais vous n'aviez pas assez d'argent malgré les soldes.
     ManqueBase = ProdBase - Argent; //L'argent qui vous manquais avec le prix de base.
 
